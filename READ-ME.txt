@@ -1,0 +1,10 @@
+# IT Support Ticket Tracker
+
+A lightweight command-line tool built with Python to log, view, and manage IT support tickets using local CSV storage. Designed to streamline helpdesk workflows and practice file handling and data automation.
+
+## Features
+* **Add Tickets:** Log new IT issues with automatic ticket ID assignment and timestamps/statuses.
+* **List Tickets:** View all open and closed support requests formatted cleanly in the terminal.
+* **Close Tickets:** Update ticket statuses from `Open` to `Closed` by Ticket ID.
+* **Persistent Storage:** Automatically generates and updates a `tickets.csv` file so data is saved between sessions.
+
